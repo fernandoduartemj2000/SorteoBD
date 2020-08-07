@@ -1,0 +1,4 @@
+CREATE  PROCEDURE `SELECT_USUARIOS`()
+BEGIN
+select * from Usuarios;
+END

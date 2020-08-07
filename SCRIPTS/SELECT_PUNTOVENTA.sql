@@ -1,0 +1,4 @@
+CREATE PROCEDURE `SELECT_PUNTOVENTA`()
+BEGIN
+select * from PuntoVenta;
+END
