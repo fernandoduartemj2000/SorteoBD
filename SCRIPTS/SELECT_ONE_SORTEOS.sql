@@ -1,0 +1,5 @@
+CREATE PROCEDURE `SELECT_ONE_SORTEOS`(
+IN _IdSorteos int)
+BEGIN
+SELECT*FROM Usuario WHERE IdSorteos=_IdSorteos;
+END
